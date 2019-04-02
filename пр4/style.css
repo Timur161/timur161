@@ -1,0 +1,11 @@
+body {
+
+	display: flex;
+	justify-content: center;
+	background-color: lightgray;
+}
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
