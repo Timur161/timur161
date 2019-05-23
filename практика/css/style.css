@@ -1,0 +1,930 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: Montserrat-SemiBold;
+    src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: GothamProBold;
+    src: url('../fonts/GothamProBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: GothaProMed;
+    src: url('../fonts/GothaProMed.otf') format('truetype');
+}
+
+@font-face {
+	font-family: GothaProReg;
+    src: url('../fonts/GothaProReg.otf') format('truetype');
+}
+
+@font-face {
+	font-family: GothamPro;
+    src: url('../fonts/GothamPro.ttf') format('truetype');
+}
+
+body {
+	background-color: #F4F1EE;
+}
+
+main {
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	height: 45rem;
+	background-image: url(../img/zhk-svoboda-header.jpg);
+	display: flex;
+	flex-direction: column;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.dark {
+	opacity:0.8;
+	-moz-opacity:0.8;
+	filter: alpha(opacity=80) black;
+	-khtml-opacity: 0.8;
+	background-color:#000;
+	height: 45rem;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 22.875rem;
+	cursor: pointer;
+	list-style: none;
+	padding-top: 69px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: white;
+	text-decoration:none;
+	font-family: GothamProBold;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+nav li:nth-of-type(7){
+	padding-left: 50px; 
+}
+
+nav li:nth-of-type(8){
+	padding-left: 50px;
+}
+
+nav li:hover {
+	text-decoration: underline;
+}
+
+nav img {
+	width: 90px;
+	height: 80px; 	
+} 
+
+.header-top {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8.5rem;
+}
+
+.header-top span {
+	background: #906c4b;
+	padding: 9px;
+	font-family: GothamPro;
+	font-size: 18px;
+	color: white;
+	margin-right: 49rem;
+}
+
+.header-top h1 {
+	font-family: GothamProBold;
+	font-size: 48px;
+	color: white;
+	margin: 30px auto 50px;
+	padding-right: 10rem;
+
+}
+
+.header-top p {
+	color: white;
+	font-family: GothamPro;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-right: 17.7rem;
+}
+
+
+.header-bottom {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-bottom a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 195px;
+	height: 50px;
+	border: 2px solid #fff;
+	text-decoration: none;
+	color: white;
+	font-family: GothamPro;
+	font-size: 14px;
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 0, 0);
+	margin-top: 30px;
+}
+
+.header-bottom a:hover {
+	background-color: lightgray;
+	transition: 1s;
+}
+
+.header-bottom button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 50px;
+	border: 2px solid #fff;
+	margin-top: 30px;
+	background-color: rgba(0, 0, 0, 0);
+	cursor: pointer;
+}
+
+.header-bottom button:hover {
+	background-color: lightgray;
+	transition: 1s;
+}
+
+.section-1 {
+	width: 73.13rem;
+	margin-left: 22.875rem;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2.75rem;
+	
+}
+
+.div-section-1 {
+	width: 338px;
+	height: 338px;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+.div-section-1 h2 {
+	font-size: 1.875rem;
+	color: #906c4b;
+	text-transform: uppercase;
+	font-family: GothamPro; 
+}
+
+.div-section-1 p {
+	font-size: 1.13rem;
+	color: black;
+	font-family: GothaProReg;
+	margin-top: 1.875rem;
+	line-height: 1.6;
+	text-align: left;
+	text-decoration: none; 
+}
+
+.section-1-about1 {
+	width: 338px;
+	height: 338px;
+	margin-left: 20px;
+	margin-top: 25px;
+	background-image: url(../img/security-svoboda.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section-1-about1-dark {
+	width: 338px;
+	height: 338px;
+	background: rgba(0,0,0,0.7);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section-1-about1-dark:hover {
+	clip-path: polygon(86% 11%, 75% 0%, 25% 0%, 13% 12%, 0% 25%, 0% 75%, 13% 89%, 25% 100%, 75% 100%, 87% 88%, 100% 75%, 100% 25%);
+}
+
+.section-1-about1 h2 {
+	font-family: GothamPro;
+	font-size: 1.125rem;
+	color: white;
+	margin: 30px auto 10px;
+}
+
+.section-1-about1 a {
+	font-family: GothaProReg;
+	font-size: 0.875rem;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.section-1-about2 {
+	width: 338px;
+	height: 338px;
+	margin-left: 20px;
+	margin-top: 25px;
+	background-image: url(../img/location-svoboda.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section-1-about2 h2 {
+	font-family: GothamPro;
+	font-size: 1.125rem;
+	color: white;
+	margin: 30px auto 10px;
+}
+
+.section-1-about2 a {
+	font-family: GothaProReg;
+	font-size: 0.875rem;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.section-1-about3 {
+	width: 338px;
+	height: 338px;
+	margin-left: 20px;
+	margin-top: 25px;
+	background-image: url(../img/territory-svoboda.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section-1-about3 h2 {
+	font-family: GothamPro;
+	font-size: 1.125rem;
+	color: white;
+	margin: 30px auto 10px;
+}
+
+.section-1-about3 a {
+	font-family: GothaProReg;
+	font-size: 0.875rem;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+}
+.section-1-about4 {
+	width: 338px;
+	height: 338px;
+	margin-left: 20px;
+	margin-top: 25px;
+	background-image: url(../img/quality-svoboda.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section-1-about4 h2 {
+	font-family: GothamPro;
+	font-size: 1.125rem;
+	color: white;
+	margin: 30px auto 10px;
+}
+
+.section-1-about4 a {
+	font-family: GothaProReg;
+	font-size: 0.875rem;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.section-1-about5 {
+	width: 338px;
+	height: 338px;
+	margin-left: 20px;
+	margin-top: 25px;
+	background-image: url(../img/infrastructure.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section-1-about5 h2 {
+	font-family: GothamPro;
+	font-size: 1.125rem;
+	color: white;
+	margin: 30px auto 10px;
+}
+
+.section-1-about5 a {
+	font-family: GothaProReg;
+	font-size: 0.875rem;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.icon-section-1 i {
+	font-size: 50px;
+	color: white;
+}
+
+.section-1-down {
+	width: 73.13rem;
+	display: flex;
+	margin-top: 139px;
+
+}
+
+.section-1-down-text {
+	padding-left: 15px;
+	width: 510px;
+}
+
+.section-1-down-text h2 {
+	color: #906c4b;
+	font-size: 26px;
+	font-family: GothamProBold;
+	margin-left: 30px;
+	margin-top: 7px;
+}
+
+.section-1-down-text p {
+	font-size: 18px;
+	font-family: GothaProReg;
+	line-height: 1.3;
+	margin-top: 55px;
+	margin-left: 30px;
+}
+
+.planning {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 8rem;
+}
+
+.tabs {
+	display: flex;
+}
+
+.tabs a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #606060;
+	font-family: GothamProBold;
+	background-color: #231d1f;
+	padding: 25px 22px;
+	font-size: 14px;
+	width: 180px;
+	display: flex;
+	justify-content: center;
+}
+
+.tabs a:hover {
+	transition: all 0.5s;
+    background-color: #f4f1ee;
+    color: black;
+}
+
+.rooms {
+	display: flex;
+	justify-content: center;
+	margin-top: 4rem;
+}
+
+.rooms div {
+	width: 359px;
+	height: 359px;
+}
+
+.room1 {
+	background: url(../img/1R.jpg);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.room1 p {
+	color: #906c4b;
+	font-family: GothamProBold;
+	font-size: 1.4rem;
+}
+
+.room1 button {
+	width: 10rem;
+	height: 3rem;
+	margin-top: 17rem;
+	background-color: rgba(0, 0, 0, 0);
+	color: #906c4b;
+	border: 0.1rem solid #906c4b;
+	cursor: pointer;
+	font-size: 0.9rem;
+	font-family: GothaProMed;
+	text-transform: uppercase;
+	outline: none;
+}
+
+.room1 button:hover {
+	background-color: #906c4b;
+	color: white;
+	transition: 0.55s;
+}
+
+.room2 {
+	background: url(../img/2R.jpg);
+	margin-left: 1rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.room2 p {
+	color: #906c4b;
+	font-family: GothamProBold;
+	font-size: 1.4rem;
+}
+
+.room2 button {
+	width: 10rem;
+	height: 3rem;
+	margin-top: 17rem;
+	background-color: rgba(0, 0, 0, 0);
+	color: #906c4b;
+	border: 0.1rem solid #906c4b;
+	cursor: pointer;
+	font-size: 0.9rem;
+	font-family: GothaProMed;
+	text-transform: uppercase;
+	outline: none;
+}
+
+.room2 button:hover {
+	background-color: #906c4b;
+	color: white;
+	transition: 0.55s;
+}
+
+.room3 {
+	background: url(../img/3R.png);
+	margin-left: 1rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.room3 p {
+	color: #906c4b;
+	font-family: GothamProBold;
+	font-size: 1.4rem;
+}
+
+.room3 button {
+	width: 10rem;
+	height: 3rem;
+	margin-top: 17rem;
+	background-color: rgba(0, 0, 0, 0);
+	color: #906c4b;
+	border: 0.1rem solid #906c4b;
+	cursor: pointer;
+	font-size: 0.9rem;
+	font-family: GothaProMed;
+	text-transform: uppercase;
+	outline: none;
+}
+
+.room3 button:hover {
+	background-color: #906c4b;
+	color: white;
+	transition: 0.55s;
+}
+
+.complex-consists-of-2-houses {
+	display: flex;
+	justify-content: center;
+	margin-top: 6.25rem;
+	flex-direction: column;
+	align-items: center;
+}
+
+.complex-consists-of-2-houses h2 {
+	margin-bottom: 6.875rem;
+	color: #906c4b;
+	font-family: GothamProBold;
+	font-size:  1.875rem;
+}
+
+.first-house {
+	width: 73.13rem;
+	display: flex;
+}
+
+.first-house-name-small {
+	font-family: GothaProMed;
+    color: #906c4b;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-bottom: 0.188rem;
+}
+
+.first-house-name {
+	font-family: GothaProMed;
+    color: #906c4b;
+    text-transform: uppercase;
+    font-size: 1.875rem;
+}
+
+.first-house-name-description {
+	margin-top: 1.875rem;
+    width: 20.6rem;
+    line-height: 1.6 !important;
+    font-family: GothaProReg;
+    color: black;
+    font-size: 1.125rem;
+    text-align: left;
+}
+
+.first-house-description button {
+	font-family: GothaProMed;
+	font-size: 0.875rem;
+	width: 16rem;
+    height: 3.125rem;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 1.875rem;
+    color: #906c4b;
+    border: 0.1rem solid #906c4b;
+    text-transform: uppercase;
+    outline: none;
+} 
+
+.first-house-description button:hover {
+	background-color: #906c4b;
+	color: white;
+	transition: 0.55s;
+}
+
+.first-house-img {
+	padding-left: 1.3rem;
+	width: 28rem;
+	height: 27.5rem;
+	margin-left: auto;
+}
+
+.first-house-img img {
+	width: 28rem;
+	height: 27.5rem;
+}
+
+.second-house {
+	width: 73.13rem;
+	display: flex;
+	margin-top: 6.25rem;
+}
+
+.second-house-description {
+	margin-left: 1.3rem;
+	margin-left: auto;
+}
+
+.second-house-name-small {
+	font-family: GothaProMed;
+    color: #906c4b;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-bottom: 0.188rem;
+}
+
+.second-house-name {
+	font-family: GothaProMed;
+    color: #906c4b;
+    text-transform: uppercase;
+    font-size: 1.875rem;
+}
+
+.second-house-name-description {
+	margin-top: 1.875rem;
+    width: 20.6rem;
+    line-height: 1.6 !important;
+    font-family: GothaProReg;
+    color: black;
+    font-size: 1.125rem;
+    text-align: left;
+}
+
+.second-house-description button {
+	font-family: GothaProMed;
+	font-size: 0.875rem;
+	width: 16rem;
+    height: 3.125rem;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 1.875rem;
+    color: #906c4b;
+    border: 0.1rem solid #906c4b;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.second-house-description button:hover {
+	background-color: #906c4b;
+	color: white;
+	transition: 0.55s;
+}
+
+.sec-slider {
+	display: flex;
+	justify-content: center;
+	margin-top: 6.25rem;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sec-slider h2 {
+	font-family: GothaProReg;
+	font-size: 1.875rem;	
+    color: #906c4b;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+.slider {
+	width: 100%;
+	height: 42.5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.slider button {
+	background-color: rgba(0, 0, 0, 0);
+	border: 0.1rem solid #906c4b;
+	border-radius: 50%;
+	color: #906c4b;
+	outline: none;
+}
+
+.slider button:hover {
+	background-color: #906c4b;
+	color: white;
+}
+
+.slider-small {
+	margin-top: 1.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.slider-small img {
+	width: 4.0625rem;
+	height: 4.0625rem;
+	padding-left: 1rem;
+}
+
+.slider-left-button {
+ 	width: 2.5rem;
+ 	height: 2.5rem;
+}
+
+.slider-right-button {
+	width: 2.5rem;
+ 	height: 2.5rem;
+}
+
+.news-and-promotions {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 6.25rem;
+	width: 100%;
+}
+
+.news-and-promotions-h2-ul h2 {
+	font-size: 1.8rem;
+	font-family: GothaProReg;
+    color: #906c4b;
+    text-transform: uppercase;
+}
+
+.news-and-promotions-h2-ul a {
+	font-size: 1rem;
+	font-family: GothamProBold;
+    color: #906c4b;
+  	text-decoration: none;
+  	margin-left: 0.5rem;
+}
+
+.news-and-promotions-h2-ul a:hover {
+	border-bottom: 0.125rem solid #906c4b;
+	transition: 0.1s;
+	width: 1rem;
+}
+
+.news-and-promotions-h2-ul {
+	width: 73.13rem;
+	height: 4.0625rem; 
+	display: flex;
+	justify-content: space-between;
+}
+
+.div-news-and-promotions {
+	width: 73.13rem;
+	flex-wrap: wrap;
+	display: flex;
+}
+
+.div-news-and-promotions div {
+	width: 21.875rem;
+	height: 13.9375rem;
+}
+
+.div-news-and-promotions div:nth-of-type(2) {
+	margin-left: 3.75rem;
+}
+
+.div-news-and-promotions div:nth-of-type(3) {
+	margin-left: 3.75rem;
+}
+
+.div-news-and-promotions div:nth-of-type(5) {
+	margin-left: 3.75rem;
+}
+
+.div-news-and-promotions div:nth-of-type(6) {
+	margin-left: 3.75rem;
+}
+
+.div-news-and-promotions div img {
+	width: 21.875rem;
+	height: 13.9375rem;
+}
+
+.div-news-and-promotions-description {
+	background-color: white;
+}
+
+.date {
+	position: absolute;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: GothaProMed;
+    color: #906c4b;
+    background: #f0f0f0;
+    padding: 0.3125rem 0.4375rem;
+    z-index: 1;
+    top: 322.5rem;
+}
+
+.news-and-promotions-description {
+	font-size: 1.2rem;
+	font-family: GothaProMed;
+	text-decoration: none;
+	color: #906c4b;
+	margin-top: 2.5rem;
+	margin-left: 1.1rem;
+	margin-right: 1.1rem;
+	margin-bottom: 1.5rem;
+}
+
+.more {
+	margin: 35px 0 0;
+    text-decoration: none;
+    color: #959696;
+    font-size:  0.9rem;
+    font-family: GothaProMed;
+    margin-left: 1.1rem;
+}
+
+.no-active {
+	display:none;
+}
+
+.receive-consultation {
+	margin-top: 3.75rem;
+	width: 73.13rem; 
+	display: flex;
+	flex-direction: column;
+}
+
+.receive-consultation p {
+	font-size: 1.875rem;
+	font-family: GothaProMed;
+    color: #906c4b;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+}
+
+.form-block {
+	display: flex;
+	width: 73.13rem;
+	height: 6.5625rem;
+	background-color: white;
+}
+
+.form-block p {
+	width: 17.8125rem;
+	height: 6.5625rem;
+	background-color: #F4F1EE;
+	font-size: 0.77rem;
+	font-family: GothaProReg;
+    text-align: right;
+    padding-top: 35px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: black;
+}
+
+.form {
+	width: 53.4375rem;
+	height: 6.5625rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form form {
+	width: 44rem;
+	height: 3.75rem;
+}
+
+.input {
+   width: 15rem;
+   height: 3.125rem;
+   border: 2px solid #f0f0f0;
+   padding-left: 1.2rem;
+   margin: 5px auto;
+   outline: none;
+}
+
+.input:hover {
+   border: 2px solid #906c4b;
+   transition: 0.3s
+}
+
+.input-submit {
+   width: 10rem;
+   height: 3.375rem;
+   border: 2px solid #906c4b;
+   margin: 5px auto;
+   text-transform: uppercase;
+   background-color: rgba(0 ,0 ,0 ,0);
+   font-family: GothaProMed;
+   color: #906c4b;
+   outline: none;
+}
+
+.input-submit:hover {
+	background-color:  #906c4b;
+	color: white;
+	transition: 0.55s
+}
+
